@@ -1,5 +1,5 @@
 ## Energeniaal ##
-*Claire Pritchard*
+*Claire Pritchard*  
 *November 2014*
 
 Energeniaal is a Windows application that reads data that the [Current Cost](http://currentcost.com/) EnviR Display Unit receives from a smart energy meter.
