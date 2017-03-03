@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Informazioni</value>
+    <comment>About menu item, about box title, menu item</comment>
+  </data>
+  <data name="ApplianceNames" xml:space="preserve">
+    <value>Nome applicazione</value>
+    <comment>Menu item</comment>
+  </data>
+  <data name="Appliances" xml:space="preserve">
+    <value>Applicazioni</value>
+    <comment>Custom sensor names form title</comment>
+  </data>
+  <data name="Averages" xml:space="preserve">
+    <value>Media</value>
+    <comment>Averages tab</comment>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>A&amp;nnullare</value>
+    <comment>Cancel button text</comment>
+  </data>
+  <data name="Channel" xml:space="preserve">
+    <value>Fase</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value>Scegliere</value>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Connesso</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Connettendo</value>
+  </data>
+  <data name="ConnectMenu" xml:space="preserve">
+    <value>&amp;Connessione</value>
+    <comment>Connect menu</comment>
+  </data>
+  <data name="DailyHistory" xml:space="preserve">
+    <value>Storico giornaliero</value>
+    <comment>Menu item</comment>
+  </data>
+  <data name="DayHistoryFilename" xml:space="preserve">
+    <value>Storico del giorno</value>
+  </data>
+  <data name="DayRadioButton" xml:space="preserve">
+    <value>Giorno</value>
+    <comment>Radio button</comment>
+  </data>
+  <data name="Disconnected" xml:space="preserve">
+    <value>Sconnesso</value>
+  </data>
+  <data name="Disconnecting" xml:space="preserve">
+    <value>Sconnettendo</value>
+  </data>
+  <data name="DisconnectMenuItem" xml:space="preserve">
+    <value>&amp;Disconnessione</value>
+    <comment>Menu item</comment>
+  </data>
+  <data name="ExportColumnHeaders" xml:space="preserve">
+    <value>Giorno/ora;Applicazione;KWh;SensorID</value>
+    <comment>Column headers for exported CSV file, except for year history</comment>
+  </data>
+  <data name="ExportColumnHeadersYear" xml:space="preserve">
+    <value>Anno;Applicazione;KWh;SensorID</value>
+    <comment>Column headers for exported CSV file, only for year history</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Aiuto</value>
+    <comment>Help menu item, help form title</comment>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>ora</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="LanguageChangeWaitText" xml:space="preserve">
+    <value>Attendere un momento</value>
+    <comment>Message shown (briefly) while switching languages</comment>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minuti</value>
+  </data>
+  <data name="MonthHistoryFilename" xml:space="preserve">
+    <value>Storico mensile</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="NoDataForApplianceAndPhase" xml:space="preserve">
+    <value>Nessun dato per applicazione/fase</value>
+    <comment>Message shown in real-time chart when there's no data available</comment>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="PerDayOfWeekRadioButton" xml:space="preserve">
+    <value>Per giorno della settimana</value>
+    <comment>Radio button</comment>
+  </data>
+  <data name="Sensor" xml:space="preserve">
+    <value>Sensore</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totale</value>
+  </data>
+  <data name="TwoHourHistoryFilename" xml:space="preserve">
+    <value>Storico di 2 ore</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Versione</value>
+  </data>
+  <data name="WholeHouseSensor" xml:space="preserve">
+    <value>Sensore generale</value>
+  </data>
+  <data name="YearHistoryFilename" xml:space="preserve">
+    <value>Storico annuale</value>
+  </data>
+  <data name="Appliance" xml:space="preserve">
+    <value>Applicazione</value>
+  </data>
+  <data name="ExitMenu" xml:space="preserve">
+    <value>Esci</value>
+    <comment>Exit menu</comment>
+  </data>
+  <data name="HelpMenu" xml:space="preserve">
+    <value>&amp;Aiuto</value>
+    <comment>Help menu</comment>
+  </data>
+  <data name="HistoricalData" xml:space="preserve">
+    <value>Dati storici</value>
+    <comment>History tab</comment>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Lingua</value>
+    <comment>Menu item</comment>
+  </data>
+  <data name="MonthHistoryMenuItem" xml:space="preserve">
+    <value>Storico mensile</value>
+    <comment>Month history menu item</comment>
+  </data>
+  <data name="MonthHistoryRadioButton" xml:space="preserve">
+    <value>Mese</value>
+    <comment>Month history radio button</comment>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>Nessun</value>
+    <comment>Menu item (when no logfile selected)</comment>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Tempo</value>
+  </data>
+  <data name="VisitEnergeniaalWebsite" xml:space="preserve">
+    <value>Visita homepage Energeniaal</value>
+    <comment>Energeniaal logo tooltip</comment>
+  </data>
+  <data name="PerTimeOfDayRadioButton" xml:space="preserve">
+    <value>Per ora del giorno</value>
+    <comment>Radio button</comment>
+  </data>
+  <data name="SettingsMenu" xml:space="preserve">
+    <value>Con&amp;figurazione</value>
+    <comment>Settings menu</comment>
+  </data>
+  <data name="TwoHourHistoryMenuItem" xml:space="preserve">
+    <value>Storico di 2 ore</value>
+    <comment>Two-hour history menu item</comment>
+  </data>
+  <data name="TwoHourHistoryRadioButton" xml:space="preserve">
+    <value>Storico di 2 ore</value>
+    <comment>Two-hour history radio button</comment>
+  </data>
+  <data name="YearHistoryMenuItem" xml:space="preserve">
+    <value>Storico annuale</value>
+    <comment>Year history menu item</comment>
+  </data>
+  <data name="YearHistoryRadioButton" xml:space="preserve">
+    <value>Anno</value>
+    <comment>Year history radio  button</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ReleaseNotesRtf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Help\ReleaseNotesIT.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ExportMenu" xml:space="preserve">
+    <value>&amp;Export</value>
+    <comment>Export menu</comment>
+  </data>
+  <data name="FileMenu" xml:space="preserve">
+    <value>&amp;File</value>
+    <comment>File menu</comment>
+  </data>
+  <data name="Logfile" xml:space="preserve">
+    <value>Logfile</value>
+    <comment>Logfile menu item</comment>
+  </data>
+  <data name="ReleaseNotes" xml:space="preserve">
+    <value>Release notes</value>
+    <comment>Release notes menu item</comment>
+  </data>
+  <data name="NoDataForAppliance" xml:space="preserve">
+    <value>Nessun dato per applicazione</value>
+    <comment>Message shown in history chart when there's no data available</comment>
+  </data>
+</root>

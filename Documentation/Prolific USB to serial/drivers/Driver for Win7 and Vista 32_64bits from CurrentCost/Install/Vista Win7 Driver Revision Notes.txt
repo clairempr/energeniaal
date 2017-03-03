@@ -1,0 +1,63 @@
+PL-2303 Vista Driver, Prolific Edition
+Driver Revision Note History
+========================================
+
+System Requirement:
+  . Windows Vista 32/64 bits versions
+  . USB host controller
+  . Device using PL-2303H/HX/X version chip
+ 
+
+Supported device ID and product strings:
+  . VID_067B&PID_2303 for "Prolific USB-to-Serial Comm Port"
+
+
+
+Release Notes:
+---------------
+PL2303 Vista driver v3.3.2.102, Prolific Edition
+  Changes from v3.3.0.1:
+    . Implement new driver naming method (major.minor.maintenance.build)
+    . Fix PL2303HXD GPIO2/3 configuration value (modify the data transfer direction).
+    . Fix PL2303HXD Product String Descriptor Issue.
+    . Modify the fix for modem cannot dial-up issue.
+    . Fix recognized fail issue of chip 2303HA (Xon/Xoff is not supported).
+    . Fix customer meter device high-speed download issue.
+
+
+PL2303 Vista driver v3.3.0.1, Prolific Edition(***)
+  Changes from v3.3.0.0:
+    . Fix modem cannot dial-up issue.
+
+
+PL2303 Vista driver v3.3.0.0, Prolific Edition
+  Changes from v3.2.0.0:
+    . Fix repeat sending and receiving caused data lost issue.
+    . Fix BSOD on continuous send/receive testing.
+        (Such as invalid request received in SerialStartWrite).
+    . Fix memory leakage while sending data.
+
+
+PL2303 Vista driver v3.2.0.0, Prolific Edition
+  Changes from v3.1.0.0:
+    . Fix communication error for immediately send data after opening COM port.
+    . Fix HyperTerminal file transfer problem. 
+    . Fix BSOD on continuous open/close testing. 
+    . Fix repeat sending and receiving caused data lost issue. 
+    . COM port number will not increase after remove and reinstall.
+
+
+PL2303 Vista driver v3.1.0.0, Prolific Edition
+    . Supports XA chip.
+  Changes from v3.0.2.0:
+    . Fix HyperTerminal Data Receiving error issue.
+  Changes from v3.0.1.0:
+    . Fix 'Yellow mark shown on legacy Com port after first installation' issue.
+    . Fix 'ReadError in MSCOMM32.OCX' issue.
+    . Remove icon from 'Safely Remove Hardware'.
+    . Fix system crash issue while using PL-2303H device.
+
+
+========================================
+Prolific Technology Inc.
+http://www.prolific.com.tw
