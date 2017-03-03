@@ -6,11 +6,11 @@ Windows likes to install the latest available driver for this device, but the Pr
  - http://www.currentcost.com/software-downloads.html (choose link "For Windows Vista and Windows 7, download these drivers") 
 2. Unplug device, install driver, plug it in when installer tells you to
 3. Make sure Windows is using the right driver
-	- Run devmgmt.msc
-	- Under Ports (COM & LPT) right-click on Prolific USB-to-Serial Comm Port and choose Update Driver Software
-- Browse my computer for driver software
-- Let me pick from a list of device drivers on my computer
-- From the list, choose the driver dated 24 Sept. 2008 (version 3.3.2.102) 
+ - Run devmgmt.msc
+ - Under Ports (COM & LPT) right-click on Prolific USB-to-Serial Comm Port and choose Update Driver Software
+ - Browse my computer for driver software
+ - Let me pick from a list of device drivers on my computer
+ - From the list, choose the driver dated 24 Sept. 2008 (version 3.3.2.102) 
  ![Windows Device Manager](../Screenshots/device_manager.png) 
 4. Cross your fingers and hope for the best 
 
