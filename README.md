@@ -20,7 +20,7 @@ Real-time data from the EnviR includes current time, temperature, and energy usa
 Approximate energy usage for each calendar year is calculated by the Energeniaal application, on the basis of available monthly and daily data.
 
 The Energeniaal application does not store data that is older than what would be stored on the Current Cost Display.
-#### Reading from the EnviR####
+#### Reading from the EnviR ####
 The EnviR Display Unit connects to the PC with a USB to serial cable, with text output from the serial port in the form of XML. Historical data stored on the device can be downloaded at any time by pressing and holding the OK and Down buttons together until the LED flashes.
 #### Credits ####
 The application was created for [Energeniaal](https://energeniaal.nl/). Logos were supplied by Energeniaal. Additional logos and translations were supplied by Current Cost Italia (Italian), Cliensol Energy (Spanish), and Energiebewusstsein (German).
